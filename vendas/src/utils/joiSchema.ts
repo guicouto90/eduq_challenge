@@ -1,11 +1,11 @@
 import joi from 'joi';
 
-export const userSchemaPost = joi.object({
-  email: joi.string().email().required(),
-  role: joi.string().valid('PREMIUM_USER', 'DEFAULT_USER').required(),
-  products: joi.array().required()
+export const salesSchemaPost = joi.object({
+  serviceKey: joi.string().required(),
+  buyerEmail: joi.string().email().required(),
+  productId: joi.string().valid('123456', '987654').required() 
 })
 
-export const userSchemaPut = joi.object({
+export const salesSchemaPut = joi.object({
   productId: joi.string().valid('123456', '987654').required()
 })

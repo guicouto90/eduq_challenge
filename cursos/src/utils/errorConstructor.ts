@@ -1,0 +1,1 @@
+export const errorConstructor = (status: Number, message: String): Object => ({ status, message });

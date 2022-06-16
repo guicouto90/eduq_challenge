@@ -2,9 +2,9 @@ import axios from "axios";
 
 const url = 'http://localhost:3001/users';
 
-export const getUserByEmail = async(email: String): Promise<any> => {
+export const getUserById = async(id: String): Promise<any> => {
   try {
-    const response = await axios.get(`${url}/email/${email}`);
+    const response = await axios.get(`${url}/${id}`);
 
     return response.data;
   } catch (error) {

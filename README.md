@@ -91,7 +91,7 @@ O serviço de curso, é onde verifica o acesso de cada usuario.
 
 ## Próximos passos no projeto:
 - Aprimoramento nos testes;
-- Mais testes;
+- Testes para os serviços de vendas e cursos;
 - Implementação login com algum tipo de token de autenticação.
 
 ### Considerações finais:

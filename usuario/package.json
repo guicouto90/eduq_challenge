@@ -2,10 +2,12 @@
   "name": "usuario",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/api/server.ts",
+  "main": "index.js",
   "scripts": {
+    "start": "npm run build && node -r ts-node/register src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/api/server.ts"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

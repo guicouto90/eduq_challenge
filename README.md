@@ -26,6 +26,7 @@ O serviço de curso, é onde verifica o acesso de cada usuario.
 - Clone o repositório em sua máquina;
 - Acesse as pasta `/usuario`, `/vendas` e `/curso`;
 - Rode o comando `npm install` em cada pasta para instalação das dependencias;
+- Rode o comando `npm start` em cada pasta para inicializar os serviços;
 - As APIs rodarão nas portas 3001, 3002 e 3003 localmente;
 - É necessário o serviço do MongoDB funcionando localmente;
 
